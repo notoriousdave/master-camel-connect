@@ -1,9 +1,9 @@
 name: Run Unit Tests on push for Develop, on PR for master.
 
  on:
-   push:
-     branches:
-       - davidw-actions
+  push:
+   branches:
+    - davidw-actions
 
  jobs:
    build:
